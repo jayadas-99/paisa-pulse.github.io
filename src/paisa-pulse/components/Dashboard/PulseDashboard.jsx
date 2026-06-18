@@ -139,9 +139,12 @@ function PulseEmptyDashboard() {
             </div>
           ))}
         </div>
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8 flex flex-wrap justify-center gap-3">
           <Link to="/pulse/upload" className="btn-primary">
             Upload your first statement
+          </Link>
+          <Link to="/pulse/demo" className="btn-secondary">
+            View sample dashboard
           </Link>
         </div>
         <p className="mt-4 text-center text-sm text-paisa-muted">No bank login. No SMS access. Just your CSV or PDF.</p>

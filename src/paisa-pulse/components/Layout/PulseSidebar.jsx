@@ -4,6 +4,8 @@ import { usePulseTheme } from "../../context/PulseThemeContext";
 
 const links = [
   ["💓", "Pulse", "/pulse"],
+  ["📤", "Transactions", "/pulse/upload"],
+  ["👀", "Demo", "/pulse/demo"],
   ["📋", "Subscriptions", "/pulse/subscriptions"],
   ["💬", "Chat", "/pulse/chat"],
   ["🧮", "What if?", "/pulse/simulator"],

@@ -9,6 +9,7 @@ import PulseUpload from "./components/Upload/PulseUpload";
 import PulseTransactions from "./components/Transactions/PulseTransactions";
 import PulseSimulator from "./components/Simulator/PulseSimulator";
 import PulseRoadmap from "./components/Roadmap/PulseRoadmap";
+import PulseDemo from "./components/Demo/PulseDemo";
 
 function PulsePage({ children }) {
   return <PulseProtectedRoute><PulseShell>{children}</PulseShell></PulseProtectedRoute>;
@@ -22,6 +23,7 @@ export default function PulseApp() {
       <Route path="transactions" element={<PulsePage><PulseTransactions /></PulsePage>} />
       <Route path="chat" element={<PulsePage><PulseChat /></PulsePage>} />
       <Route path="upload" element={<PulsePage><PulseUpload /></PulsePage>} />
+      <Route path="demo" element={<PulsePage><PulseDemo /></PulsePage>} />
       <Route path="simulator" element={<PulsePage><PulseSimulator /></PulsePage>} />
       <Route path="roadmap" element={<PulsePage><PulseRoadmap /></PulsePage>} />
       <Route path="settings" element={<PulsePage><PulseSettings /></PulsePage>} />

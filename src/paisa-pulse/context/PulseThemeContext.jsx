@@ -3,7 +3,7 @@ import { createContext, useContext, useEffect, useMemo, useState } from "react";
 const PulseThemeContext = createContext(null);
 
 export function PulseThemeProvider({ children }) {
-  const [theme, setTheme] = useState(() => localStorage.getItem("paisa-pulse-theme") || "dark");
+  const [theme, setTheme] = useState(() => localStorage.getItem("paisa-pulse-theme") || "light");
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
