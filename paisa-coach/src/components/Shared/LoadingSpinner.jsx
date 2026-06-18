@@ -1,4 +1,4 @@
-export default function LoadingSpinner({ label = "Loading Paisa Coach..." }) {
+export default function LoadingSpinner({ label = "Loading Paysa Coach..." }) {
   return (
     <div className="flex min-h-[240px] items-center justify-center text-center">
       <div>

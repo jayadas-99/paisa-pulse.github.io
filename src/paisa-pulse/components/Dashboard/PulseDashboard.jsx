@@ -224,7 +224,7 @@ function WeeklyShareCard({ totals, currentMonth }) {
         id={shareId}
         className="mt-5 max-w-xl rounded-2xl border border-paisa-border bg-paisa-bg p-5 text-paisa-text"
       >
-        <p className="text-xs font-bold uppercase tracking-wide text-paisa-muted">Paisa Pulse · {currentMonth}</p>
+        <p className="text-xs font-bold uppercase tracking-wide text-paisa-muted">Paysa Pulse · {currentMonth}</p>
         <h3 className="mt-2 font-heading text-2xl font-extrabold">This month’s pulse 💓</h3>
         <div className="mt-5 grid gap-3 sm:grid-cols-3">
           {CATEGORIES.map((card) => (

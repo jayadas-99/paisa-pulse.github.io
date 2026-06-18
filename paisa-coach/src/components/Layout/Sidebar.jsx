@@ -6,7 +6,7 @@ const links = [
   ["🏠", "Dashboard", "/dashboard"],
   ["📤", "Upload Transactions", "/upload"],
   ["🧾", "Review Transactions", "/transactions"],
-  ["💬", "Chat with Paisa Coach", "/chat"],
+  ["💬", "Chat with Paysa Coach", "/chat"],
   ["🔔", "Nudges", "/nudges"],
   ["🎯", "Goals", "/goals"],
   ["⚙️", "Settings", "/settings"],

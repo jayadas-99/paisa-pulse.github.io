@@ -31,7 +31,7 @@ async function pulseChatWithData(userMessage, conversationHistory = [], transact
       messages: [
         {
           role: "system",
-          content: `You are Paisa Pulse, a focused financial habit coach.
+          content: `You are Paysa Pulse, a focused financial habit coach.
 You only discuss Food Delivery, Quick Commerce, and Subscriptions.
 If asked about anything else — rent, salary, investments, transfers — respond with:
 '${OUT_OF_SCOPE_REPLY}'
@@ -72,7 +72,7 @@ export default function PulseChat() {
       const reply = await pulseChatWithData(trimmed, [...history, userMessage], transactions, cycle);
       await addPulseChatMessage(user.uid, { role: "assistant", content: reply });
     } catch {
-      await addPulseChatMessage(user.uid, { role: "assistant", content: "I couldn't reach Paisa Pulse right now. Try again in a bit." });
+      await addPulseChatMessage(user.uid, { role: "assistant", content: "I couldn't reach Paysa Pulse right now. Try again in a bit." });
     } finally {
       setTyping(false);
     }
@@ -81,7 +81,7 @@ export default function PulseChat() {
   return (
     <div className="flex h-[calc(100vh-150px)] min-h-[560px] flex-col overflow-hidden rounded-2xl border border-paisa-border bg-paisa-card">
       <div className="flex items-center justify-between border-b border-paisa-border p-4">
-        <div><h1 className="font-heading text-xl font-bold">Chat with Paisa Pulse</h1><p className="text-sm text-paisa-muted">{cycle?.label}</p></div>
+        <div><h1 className="font-heading text-xl font-bold">Chat with Paysa Pulse</h1><p className="text-sm text-paisa-muted">{cycle?.label}</p></div>
         <button onClick={() => { if (window.confirm("Clear all chat history? This cannot be undone.")) clearPulseChat(user.uid); }} className="btn-secondary">Clear Chat</button>
       </div>
       <div className="scrollbar-thin flex-1 overflow-y-auto p-4">

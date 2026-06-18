@@ -43,7 +43,7 @@ export default function ChatPage() {
   return (
     <div className="flex h-[calc(100vh-190px)] min-h-[560px] flex-col overflow-hidden rounded-2xl border border-paisa-border bg-[#0d0d14]">
       <div className="flex items-center justify-between border-b border-paisa-border p-4">
-        <div><h1 className="font-heading text-xl font-bold">Chat with Paisa Coach</h1><p className="text-sm text-paisa-muted">{cycle.label}</p></div>
+        <div><h1 className="font-heading text-xl font-bold">Chat with Paysa Coach</h1><p className="text-sm text-paisa-muted">{cycle.label}</p></div>
         <button onClick={() => { if (window.confirm("Clear all chat history? This cannot be undone.")) clearChat(user.uid); }} className="btn-secondary">Clear Chat</button>
       </div>
       <div className="scrollbar-thin flex-1 overflow-y-auto p-4">

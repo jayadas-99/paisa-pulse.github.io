@@ -30,7 +30,7 @@ export default function PulseSidebar() {
       <aside className="hidden w-72 shrink-0 border-r border-paisa-border bg-paisa-card p-4 lg:block">
         <nav className="sticky top-6 flex h-[calc(100vh-3rem)] flex-col">
           <div className="mb-5 px-3">
-            <p className="font-heading text-2xl font-extrabold text-paisa-text">Paisa Pulse</p>
+            <p className="font-heading text-2xl font-extrabold text-paisa-text">Paysa Pulse</p>
             <p className="mt-1 text-xs font-bold uppercase tracking-wide text-paisa-muted">Habit tracker</p>
           </div>
           <div className="space-y-2">
@@ -42,7 +42,7 @@ export default function PulseSidebar() {
           </div>
           <div className="mt-auto border-t border-paisa-border pt-4">
             <div className="mb-3 px-3">
-              <p className="truncate text-sm font-bold text-paisa-text">{profile?.name || user?.displayName || "Paisa Pulse user"}</p>
+              <p className="truncate text-sm font-bold text-paisa-text">{profile?.name || user?.displayName || "Paysa Pulse user"}</p>
               <p className="truncate text-xs text-paisa-muted">{profile?.email || user?.email}</p>
             </div>
             <button

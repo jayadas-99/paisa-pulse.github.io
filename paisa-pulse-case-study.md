@@ -1,4 +1,4 @@
-# Paisa Pulse — Product Case Study
+# Paysa Pulse — Product Case Study
 
 *A salary-cycle-aware personal finance coach for salaried Indians*
 
@@ -46,7 +46,7 @@ Every feature in the app serves this scope. The chat interface, for example, ref
 
 ### Privacy as a product principle
 
-Paisa Pulse never asks for bank login credentials, SMS access, or any form of account linking. Users upload CSVs or PDFs manually. This isn't just a technical choice — it's a product stance.
+Paysa Pulse never asks for bank login credentials, SMS access, or any form of account linking. Users upload CSVs or PDFs manually. This isn't just a technical choice — it's a product stance.
 
 The PDF parser runs entirely in the browser using PDF.js, so the raw statement file never leaves the user's device. Only the parsed transaction rows (date, amount, description) are sent anywhere. This was a deliberate decision to build trust with a user base that has strong — and justified — reasons to distrust fintech apps asking for access.
 
@@ -77,7 +77,7 @@ Survival Mode was the most product-significant decision in the build. It acknowl
 | Survival Mode | Stripped dashboard for the last week before salary |
 | AI nudges on category cards | 12-word, non-judgmental, data-specific nudge per category |
 | Subscription audit | Detects recurring charges across 3 months, shows monthly average |
-| Paisa Coach chat interface | Conversational spending questions against real transaction data |
+| Paysa Coach chat interface | Conversational spending questions against real transaction data |
 | Shareable weekly spending card | PNG download with category totals — designed to be shared |
 | Goal tracking | Salary-cycle-sensitive goal progress |
 | Budget simulator (What if?) | Drag sliders to see annual savings from cutting categories |

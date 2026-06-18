@@ -35,7 +35,7 @@ export function AuthProvider({ children }) {
         .then((nextProfile) => setProfile(nextProfile))
         .catch(() => {
           setProfile({
-            name: firebaseUser.displayName || "Paisa Coach user",
+            name: firebaseUser.displayName || "Paysa Coach user",
             email: firebaseUser.email,
             salaryDate: 1,
             monthlyIncome: 0,
@@ -68,7 +68,7 @@ export function AuthProvider({ children }) {
     const existing = await withTimeout(getProfile(credential.user.uid));
     if (!existing) {
       const nextProfile = {
-        name: credential.user.displayName || "Paisa Coach user",
+        name: credential.user.displayName || "Paysa Coach user",
         email: credential.user.email,
         createdAt: Date.now(),
         salaryDate: 1,

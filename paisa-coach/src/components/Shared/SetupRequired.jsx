@@ -3,7 +3,7 @@ export default function SetupRequired() {
     <main className="grid min-h-screen place-items-center bg-[radial-gradient(circle_at_top,#22133d_0,#0a0a0f_42%)] px-4">
       <section className="card max-w-2xl">
         <h1 className="font-heading text-3xl font-extrabold">
-          <span className="text-paisa-accentLight">paisa</span> coach 💸
+          <span className="text-paisa-accentLight">paysa</span> coach 💸
         </h1>
         <p className="mt-4 text-paisa-muted">
           The app is running, but Firebase is not configured yet. Add your Firebase web app values to <code className="rounded bg-black/30 px-1">.env.local</code>, then restart Vite.

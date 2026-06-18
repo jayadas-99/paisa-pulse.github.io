@@ -1,6 +1,6 @@
-# Paisa Coach
+# Paysa Coach
 
-Paisa Coach is a privacy-first, salary-cycle-aware personal finance coaching app for salaried Indians. Users upload bank statement CSVs, get India-native transaction categorisation, and receive conversational nudges that adapt to where they are in the month.
+Paysa Coach is a privacy-first, salary-cycle-aware personal finance coaching app for salaried Indians. Users upload bank statement CSVs, get India-native transaction categorisation, and receive conversational nudges that adapt to where they are in the month.
 
 ## Setup
 
@@ -54,14 +54,14 @@ If login shows `auth/configuration-not-found`, Firebase Authentication is not fu
 - Persistent salary-cycle banner with flush, steady, careful, and survival phases
 - Survival Mode dashboard that focuses only on money remaining, days until salary, and essentials
 - Dashboard charts with Recharts category and month comparisons
-- Conversational Paisa Coach chat interface
+- Conversational Paysa Coach chat interface
 - Goal tracking with salary-cycle-sensitive behaviour
 - Shareable weekly spending card downloadable as PNG
 - Vercel-ready SPA routing
 
 ## Privacy Positioning
 
-Paisa Coach never asks for SMS access, bank API access, loans, credit cards, or investment product upsells. The user stays in control by uploading CSVs manually.
+Paysa Coach never asks for SMS access, bank API access, loans, credit cards, or investment product upsells. The user stays in control by uploading CSVs manually.
 
 The PDF parser reads the selected statement locally in the browser with PDF.js. The parser itself does not upload the file or call any external AI/API service.
 

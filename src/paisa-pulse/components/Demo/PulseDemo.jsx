@@ -48,7 +48,7 @@ export default function PulseDemo() {
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div>
           <p className="text-xs font-bold uppercase tracking-wide text-paisa-muted">Demo data</p>
-          <h1 className="mt-1 font-heading text-3xl font-extrabold">See Paisa Pulse with sample numbers</h1>
+          <h1 className="mt-1 font-heading text-3xl font-extrabold">See Paysa Pulse with sample numbers</h1>
           <p className="mt-2 max-w-3xl text-paisa-muted">
             These are made-up transactions so you can preview the dashboard before uploading your own statement.
           </p>
@@ -61,7 +61,7 @@ export default function PulseDemo() {
       <section className="survival-card p-4">
         <p className="font-bold text-paisa-text">Salary cycle preview: Careful Zone</p>
         <p className="mt-1 text-sm text-paisa-muted">
-          Paisa Pulse changes its nudges based on where you are in your salary month.
+          Paysa Pulse changes its nudges based on where you are in your salary month.
         </p>
       </section>
 

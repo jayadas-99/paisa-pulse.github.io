@@ -58,7 +58,7 @@ export function AuthFrame({ title, subtitle, children }) {
     <main className="grid min-h-screen place-items-center bg-[radial-gradient(circle_at_top,#22133d_0,#0a0a0f_42%)] px-4">
       <section className="w-full max-w-md">
         <div className="mb-8 text-center">
-          <h1 className="font-heading text-4xl font-extrabold"><span className="text-paisa-accentLight">paisa</span> coach 💸</h1>
+          <h1 className="font-heading text-4xl font-extrabold"><span className="text-paisa-accentLight">paysa</span> coach 💸</h1>
           <p className="mt-3 text-paisa-muted">{subtitle}</p>
         </div>
         <div className="card">

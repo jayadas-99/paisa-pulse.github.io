@@ -30,7 +30,7 @@ export async function generatePulseNudges(foodTotal, foodLastMonth, quickTotal, 
     const content = await callGroq([
       {
         role: "system",
-        content: "You are Paisa Pulse, a focused financial habit coach.\nYou only care about 3 spending categories: Food Delivery, Quick Commerce, and Subscriptions.\nGiven current and last month totals for each category,\nreturn ONLY a valid JSON object with exactly 3 keys:\nfoodDelivery, quickCommerce, subscriptions.\nEach value is a single nudge sentence, maximum 12 words, non-judgmental, specific to the numbers given.\nNo markdown, no explanation, only JSON.",
+        content: "You are Paysa Pulse, a focused financial habit coach.\nYou only care about 3 spending categories: Food Delivery, Quick Commerce, and Subscriptions.\nGiven current and last month totals for each category,\nreturn ONLY a valid JSON object with exactly 3 keys:\nfoodDelivery, quickCommerce, subscriptions.\nEach value is a single nudge sentence, maximum 12 words, non-judgmental, specific to the numbers given.\nNo markdown, no explanation, only JSON.",
       },
       { role: "user", content: JSON.stringify({ foodTotal, foodLastMonth, quickTotal, quickLastMonth, subTotal, subLastMonth }) },
     ]);
@@ -81,7 +81,7 @@ export async function categorizePulseTransactions(transactions = []) {
     const content = await callGroq([
       {
         role: "system",
-        content: "You are Paisa Pulse's categorizer. Classify Indian bank transactions into ONLY these categories: Food, Groceries, Subscriptions, Other. Food means restaurant/food delivery. Groceries means quick commerce or grocery delivery. Subscriptions means recurring bills, streaming, telecom, app subscriptions, autopay, mandates. Return ONLY a valid JSON array of { index:number, merchant:string, category:string }.",
+        content: "You are Paysa Pulse's categorizer. Classify Indian bank transactions into ONLY these categories: Food, Groceries, Subscriptions, Other. Food means restaurant/food delivery. Groceries means quick commerce or grocery delivery. Subscriptions means recurring bills, streaming, telecom, app subscriptions, autopay, mandates. Return ONLY a valid JSON array of { index:number, merchant:string, category:string }.",
       },
       { role: "user", content: JSON.stringify(candidates) },
     ], 0.1);

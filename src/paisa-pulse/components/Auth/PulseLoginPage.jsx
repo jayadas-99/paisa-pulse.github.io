@@ -70,7 +70,7 @@ export function AuthFrame({ title, subtitle, children }) {
       <section className="w-full max-w-md">
         <div className="mb-8 text-center">
           <div className="mx-auto mb-4 h-2 w-24 rounded-full bg-paisa-accentLight" />
-          <h1 className="font-heading text-4xl font-extrabold"><span className="text-paisa-accentLight">Paisa</span> Pulse 💓</h1>
+          <h1 className="font-heading text-4xl font-extrabold"><span className="text-paisa-accentLight">Paysa</span> Pulse 💓</h1>
           <p className="mt-3 text-paisa-muted">{subtitle}</p>
         </div>
         <div className="card">

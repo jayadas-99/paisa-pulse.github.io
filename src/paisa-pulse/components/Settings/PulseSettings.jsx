@@ -38,7 +38,7 @@ export default function PulseSettings() {
     <div className="space-y-6">
       <div>
         <h1 className="font-heading text-3xl font-extrabold">Pulse Settings</h1>
-        <p className="text-paisa-muted">Tune the three habits Paisa Pulse tracks.</p>
+        <p className="text-paisa-muted">Tune the three habits Paysa Pulse tracks.</p>
       </div>
       <form onSubmit={saveBudgets} className="card max-w-2xl space-y-5">
         <div>

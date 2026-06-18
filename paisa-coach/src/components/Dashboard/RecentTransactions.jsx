@@ -66,7 +66,7 @@ export default function RecentTransactions({ transactions, pageSize = 12, collap
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <div>
           <h2 className="font-heading text-xl font-bold">Review transactions</h2>
-          <p className="text-sm text-paisa-muted">Correcting one row teaches Paisa Coach that merchant for next time.</p>
+          <p className="text-sm text-paisa-muted">Correcting one row teaches Paysa Coach that merchant for next time.</p>
         </div>
         <div className="flex flex-wrap items-center gap-2">
           {rows.length > pageSize && (

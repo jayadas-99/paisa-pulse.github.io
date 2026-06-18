@@ -1,4 +1,4 @@
-export default function PulseLoadingSpinner({ label = "Loading Paisa Pulse..." }) {
+export default function PulseLoadingSpinner({ label = "Loading Paysa Pulse..." }) {
   return (
     <div className="flex min-h-[240px] items-center justify-center text-center">
       <div>

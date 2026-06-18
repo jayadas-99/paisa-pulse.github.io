@@ -27,7 +27,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-20 border-b border-paisa-border bg-paisa-bg/90 backdrop-blur">
       <div className="flex h-16 items-center justify-between px-4 lg:px-6">
         <Link to="/dashboard" className="font-heading text-xl font-extrabold text-white">
-          <span className="text-paisa-accentLight">paisa</span> coach 💸
+          <span className="text-paisa-accentLight">paysa</span> coach 💸
         </Link>
         <div className="flex items-center gap-4">
           <button onClick={toggleTheme} className="rounded-full bg-paisa-card px-3 py-2 text-sm" title="Toggle theme">

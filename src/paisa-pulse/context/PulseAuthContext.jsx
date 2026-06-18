@@ -35,7 +35,7 @@ export function PulseAuthProvider({ children }) {
         .then((nextProfile) => setProfile(nextProfile))
         .catch(() => {
           setProfile({
-            name: firebaseUser.displayName || "Paisa Pulse user",
+            name: firebaseUser.displayName || "Paysa Pulse user",
             email: firebaseUser.email,
             salaryDate: 1,
             monthlyIncome: 0,
@@ -68,7 +68,7 @@ export function PulseAuthProvider({ children }) {
     const existing = await withTimeout(getPulseProfile(credential.user.uid));
     if (!existing) {
       const nextProfile = {
-        name: credential.user.displayName || "Paisa Pulse user",
+        name: credential.user.displayName || "Paysa Pulse user",
         email: credential.user.email,
         createdAt: Date.now(),
         salaryDate: 1,

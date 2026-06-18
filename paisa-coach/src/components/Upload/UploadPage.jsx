@@ -139,7 +139,7 @@ export default function UploadPage() {
             </table>
           </div>
           <button onClick={confirmUpload} disabled={busy} className="btn-primary mt-5">
-            {busy ? "Paisa Coach is reading your transactions... 👀" : "Confirm and coach me"}
+            {busy ? "Paysa Coach is reading your transactions... 👀" : "Confirm and coach me"}
           </button>
         </section>
       )}

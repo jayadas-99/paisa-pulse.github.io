@@ -208,7 +208,7 @@ export default function PulseUpload() {
             </table>
           </div>
           <button onClick={confirmUpload} disabled={busy} className="btn-primary mt-5">
-            {busy ? "Paisa Pulse is reading your transactions... 👀" : "Confirm and update Pulse"}
+            {busy ? "Paysa Pulse is reading your transactions... 👀" : "Confirm and update Pulse"}
           </button>
           {uploadProgress && <ProgressBar value={uploadProgress.value} label={uploadProgress.label} />}
         </section>

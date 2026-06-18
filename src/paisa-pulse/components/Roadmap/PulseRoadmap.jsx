@@ -36,7 +36,7 @@ const SECTIONS = [
 export default function PulseRoadmap() {
   return (
     <div className="space-y-6">
-      <h1 className="font-heading text-3xl font-extrabold">What's coming to Paisa Pulse 🗺️</h1>
+      <h1 className="font-heading text-3xl font-extrabold">What's coming to Paysa Pulse 🗺️</h1>
 
       <div className="grid gap-5 lg:grid-cols-3">
         {SECTIONS.map((section) => (
